@@ -1,1 +1,11 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Web Page</title>
+</head>
+<body>
+    <p style="font-family: 'Times New Roman', Times, serif; font-size: 16pt;">
+        Hello everyone, my name is Wineetha A/P Logalingam.
+    </p>
+</body>
+</html>
