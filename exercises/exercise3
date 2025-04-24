@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who Am I</title>
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .info-section {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+    </style>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="exercise 3.css">
+</head>
+<body>
+    <h1>Who Am I</h1>
+    
+    <div class="info-section">
+        <!-- Inline CSS -->
+        <h2 style="color: #e74c3c; font-style: italic;">Personal Information</h2>
+        <p><strong>Full Name:</strong> Wineetha A/P Logalingam</p>
+        <p><strong>Age:</strong> 22</p>
+    </div>
+    
+    <div class="info-section">
+        <h2>Educational Background</h2>
+        <ul>
+            <li>Universiti - Universiti Malaysia Perlis (2023-till now)</li>
+            <li>High School (Form 6) - Kolej Tingkatan Enam Sultan Sallehuddin (2021-2023)</li>
+            <li>Secondary School - SMJK Keat Hwa (2016-2020)</li>
+            <li>Primary School - SJK(C)Peng Min (2010-2015)</li>
+        </ul>
+    </div>
+</body>
+</html>
 
+
+/* External Stylesheet */
+.info-section h2 {
+    color: #3498db;
+    margin-top: 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
